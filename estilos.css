@@ -272,6 +272,17 @@ header .boton {
     width: 100%;
 }
 
+.cliente h4 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.cliente p {
+    color: #fff;
+    text-align: center;
+}
 /* Footer */
 
 footer {
