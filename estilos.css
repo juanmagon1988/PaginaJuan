@@ -178,7 +178,7 @@ header .boton {
     background: rgba(52, 73, 94, 0.815);
 }
 
-.encima h2 {
+.encima h3 {
     position: relative;
     top: 45%;
     text-align: center;
@@ -189,7 +189,7 @@ header .boton {
     position: relative;
     display: block;
     top: 46%;
-    width: 40px;
+    width: 100px;
     height: 5px;
     background: #fff;
     margin: auto;
@@ -213,10 +213,10 @@ header .boton {
 }
 
 .cards img {
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 5%;
 }
 
 .fondo {
@@ -364,7 +364,7 @@ input[type="submit"] {
 
 @media screen and (max-width:610px) {
     header .textos {
-        margin-top: 130px;
+        margin-top: 50px;
     }
 
     header .titulo {
@@ -400,7 +400,7 @@ input[type="submit"] {
 
 @media screen and (max-width:380px) {
     header .textos {
-        margin-top: 100px;
+        margin-top: 40px;
     }
 
     header .titulo {
