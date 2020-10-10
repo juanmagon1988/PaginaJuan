@@ -265,23 +265,21 @@ header .boton {
 }
 
 .cliente {
-    width: 30%;
+    width: 40%;
 }
 
-.cliente img {
-    width: 100%;
-}
 
-.cliente h4 {
-    color: #fff;
-    text-align: center;
+
+.cliente h3 {
+    color: #15a4fa;
+    text-align: justify;
     margin-bottom: 20px;
 
 }
 
 .cliente p {
     color: #fff;
-    text-align: center;
+    text-align: justify;
 }
 /* Footer */
 
