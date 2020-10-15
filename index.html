@@ -5,8 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-site-verification" content="ZdUgXjBej8jCEC3imZCd8xwfWGEF0R2TMkcwNod37N0" />
     <title>Juan Manuel Gonzalez | Desarrollo Web</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link  rel="icon"   href="images/vectorpaint.ico" type="image/ico" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180714115-1"></script>
+    <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-180714115-1');
+    </script>
 </head>
 
 
@@ -34,24 +44,24 @@
         <section class="galeria">
             <div class="sesgoarriba"></div>
             <div class="imagenes none">
-                <img src="1.jpg" alt="">
+                <img src="images/1.jpg" alt="">
             </div>
             <div class="imagenes">
-                <img src="3.jpg" alt="">
+                <img src="images/3.jpg" alt="">
             </div>
             <div class="imagenes">
-                <img src="2.jpg" alt="">
+                <img src="images/2.jpg" alt="">
                 <div class="encima">
                     <h3>Desarrollo y diseño</h3>
                     <div></div>
                 </div>
             </div>
             <div class="imagenes">
-                <img src="4.jpeg" alt="">
+                <img src="images/4.jpeg" alt="">
 
             </div>
             <div class="imagenes none">
-                <img src="foto 3.jpg" alt="">
+                <img src="images/foto 3.jpg" alt="">
             </div>
             <div class="sesgoabajo"></div>
         </section>
@@ -61,19 +71,19 @@
                 <h3 class="slogan">Conoce las herramientas que utilizamos</h3>
                 <div class="cards">
                     <div class="card">
-                        <img src="laravellogo.png" alt="">
+                        <img src="images/laravellogo.png" alt="">
                         <h4>Laravel</h4>
-                        <p>Framework para desarrollo de aplicaciones y servicios web</p>
+                        
                     </div>
                     <div class="card">
-                        <img src="mysqllogo.jpg" alt="">
+                        <img src="images/mysqllogo.jpg" alt="">
                         <h4>MySQL</h4>
-                        <p>Sistema de gestión de bases de datos relacional</p>
+                        
                     </div>
                     <div class="card">
-                        <img src="logovuejs.png" alt="">
+                        <img src="images/logovuejs.png" alt="">
                         <h4>VueJS</h4>
-                        <p>Framework progresivo de Javascript</p>
+                        
                     </div>
                 </div>
             </div>
@@ -106,10 +116,10 @@
             <h2 id="contacto" class="titulo-footer">Contáctanos</h2>
             <h3 class="subtitulo-footer">Lo apreciaríamos mucho</h3>
             <div class="footer">
-                <form action="send.php" method="post">
-                    <input type="text" name="name" id="" placeholder="Nombre">
-                    <input type="email" name="email" id="" placeholder="Email">
-                    <textarea name="text" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
+                <form action="enviar.php" method="post">
+                    <input type="text" name="name"  placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="text"  cols="30" rows="10" required placeholder="Ingrese su mensaje..."></textarea>
                     <input type="submit" value="Enviar">
                 </form>
             </div>
